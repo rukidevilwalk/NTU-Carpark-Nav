@@ -1,0 +1,11 @@
+{
+  "name": "Carpark Nav",
+  "gcm_sender_id": "103953800507",
+  "short_name": "PWA",
+  "theme_color": "#175f99",
+  "background_color": "#544851",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}

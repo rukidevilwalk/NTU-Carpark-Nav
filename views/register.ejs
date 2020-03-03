@@ -1,0 +1,65 @@
+<% include partials/header %>
+
+<div class="container">
+	<header class="jumbotron" style="text-align: center;">
+		<h1>Register Page</h1>
+	</header>
+	<div class="card">
+		<h5 class="card-header">Add New Administrator</h5>
+		<div class="card-body">
+			<form action="/register" method="POST" onsubmit="return formValidation()">
+				<div class="form-group row">
+					<label for="inputUsername" class="col-sm-2 col-form-label">Username:</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="inputUsername" name="username" placeholder="Username" required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password" required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="offset-sm-2 col-sm-10">
+						<button type="submit" class="btn btn-primary">Register</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+<script>
+	function formValidation() {
+
+		let pw = document.getElementById('inputPassword');
+		let format = /[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
+
+		if (pw.value.length >= 8) {
+			let noOfUpperCase = noOfLowerCase = noOfNum = 0;
+			let pw_arr = pw.value;
+			for (var i = 0; i < pw_arr.length; i++) {
+				if (isNaN(parseInt(pw_arr[i]))) {
+					if (pw_arr[i] == pw_arr[i].toUpperCase()) {
+						noOfUpperCase++;
+					} else {
+						noOfLowerCase++;
+					}
+				} else {
+					noOfNum++;
+				}
+			}
+			if (noOfLowerCase < 1 || noOfUpperCase < 1 || noOfNum < 1 || format.test(pw.value) == false) {
+				alert("Password must consists of at least 1 uppercase, 1 lower case, 1 special character and 1 number!");
+				return false;
+			}
+		} else {
+			alert("Password must be at least 8 characters long!");
+			return false;
+		}
+		return true;
+	}
+</script>
+<% include partials/footer %>

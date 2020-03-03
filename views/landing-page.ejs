@@ -1,0 +1,44 @@
+<% include partials/header %>
+
+<div class="container">
+	<header class="jumbotron" style="text-align: center;">
+		<h1>Landing Page</h1>
+	</header>
+</div>
+
+<div class="container">
+	<form action="/carparks" method="POST">
+		<div class="form-group">
+			<label for="current-location">Current Destination:</label>
+			<input type="text" class="form-control" id="current-location" name="current_location" required>
+		</div>
+		<div class="form-group">
+			<label for="destination">Desired Destination:</label>
+			<input type="text" class="form-control" id="destination" name="destination" required>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+
+<script>
+function initMap() {
+	var currentlocation = document.getElementById('current-location')
+	var destination = document.getElementById('destination')
+
+	var cl_autocomplete = new google.maps.places.Autocomplete(currentlocation, {
+            componentRestrictions: {
+                country: "SG"
+            }
+		})
+		
+	var d_autocomplete = new google.maps.places.Autocomplete(destination, {
+            componentRestrictions: {
+                country: "SG"
+            }
+        })
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvWKrTIFhhT83BXSazdU7XSve5whD9SoE&libraries=places&callback=initMap"
+async defer></script>
+
+<% include partials/footer %>

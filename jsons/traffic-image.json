@@ -1,0 +1,611 @@
+{
+	"cameras" : [{
+		"timestamp" : "",		
+		"id" : 3702,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Entrance from PIE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3705,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Exit 2A to Changi Coast Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3793,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Laguna Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3795,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Marine Parade Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3796,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Tanjong Katong Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3797,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Tanjong Rhu"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3704,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Entrance from MCE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 3798,
+		"location" : "ECP",
+		"image" : "",
+		"description" : "Benjamin Sheares Bridge"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1504,
+		"location" : "MCE",
+		"image" : "",
+		"description" : "MCE/ECP"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1505,
+		"location" : "MCE",
+		"image" : "",
+		"description" : "Marina Boulevard"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1502,
+		"location" : "MCE",
+		"image" : "",
+		"description" : "Marina Boulevard/Marina Coastal Drive"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1503,
+		"location" : "MCE",
+		"image" : "",
+		"description" : "MCE 1.02km"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1501,
+		"location" : "MCE",
+		"image" : "",
+		"description" : "Maxwell Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4799,
+		"location" : "SentosaGateway",
+		"image" : "",
+		"description" : "Sentosa Gateway (Towards Sentosa)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4798,
+		"location" : "SentosaGateway",
+		"image" : "",
+		"description" : "Sentosa Gateway (Towards Telok Blangah)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4702,
+		"location" : "AYE",
+		"image": "",
+		"description" : "Keppel Viaduct"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4704,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Lower Delta Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4701,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Towards Alexandra Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4706,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Near NUS"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4708,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Near Dover Drive"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4709,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Clementi Ave 6 Entrance"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4714,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Near West Coast Walk"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4710,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Towards Pandan Gardens"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4705,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Entrance from Yuan Ching Rd"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4716,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Entrance from Benoi Rd"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4707,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "Entrance from Jln Ahmad Ibrahim"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4712,
+		"location" : "AYE",
+		"image" : "",
+		"description" : "After Tuas West Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1706,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Yio Chu Kang Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1705,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Ang Mo Kio Ave 5 Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1711,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Ang Mo Kio Ave 1 Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1702,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Braddell Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1703,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "St George Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1701,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Moulmein Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1709,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Exit 6 to Bukit Timah Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1704,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Entrance from Chin Swee Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1707,
+		"location" : "CTE",
+		"image" : "",
+		"description" : "Bukit Merah Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1005,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "Defu Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1006,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "Tampines Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1004,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "Kallang Way Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1002,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "Kallang Bahru"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1003,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "KPE/PIE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 1001,
+		"location" : "KPE",
+		"image" : "",
+		"description" : "KPE/ECP"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2704,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "Woodlands Flyover (Towards Checkpoint)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2706,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "After KJE Exit"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2707,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "Mandai Rd Entrance"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2708,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "Exit 5 to KJE (Towards Checkpoint)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2705,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "Dairy Farm Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2703,
+		"location" : "BKE",
+		"image" : "",
+		"description" : "Chantek Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 8702,
+		"location" : "KJE",
+		"image" : "",
+		"description" : "Exit To BKE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 8704,
+		"location" : "KJE",
+		"image" : "",
+		"description" : "Entrance From Choa Chu Kang Dr"
+	},
+	{
+		"timestamp" : "",
+		"id" : 8701,
+		"location" : "KJE",
+		"image" : "",
+		"description" : "Choa Chu Kang West Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 8706,
+		"location" : "KJE",
+		"image" : "",
+		"description" : "Tengah Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4713,
+		"location" : "TuasCheckpoint",
+		"image" : "",
+		"description" : "Tuas Checkpoint"
+	},
+	{
+		"timestamp" : "",
+		"id" : 4703,
+		"location" : "TuasCheckpoint",
+		"image" : "",
+		"description" : "Second Link at Tuas"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2701,
+		"location" : "WoodlandsCheckpoint",
+		"image" : "",
+		"description" : "Woodlands Causeway (Towards Johor)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 2702,
+		"location" : "WoodlandsCheckpoint",
+		"image" : "",
+		"description" : "Woodlands Checkpoint (Towards BKE)"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7791,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Upp Changi Flyover Towards PIE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7793,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Tampines Ave 10 Entrance"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7794,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "TPE(KPE) Exit"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7795,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Entrance To Tampines Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7796,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Exit to Punggol Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7797,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Seletar West Link"
+	},
+	{
+		"timestamp" : "",
+		"id" : 7798,
+		"location" : "TPE",
+		"image" : "",
+		"description" : "Seletar Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9701,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "Lentor Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9702,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "Upp Thomson Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9706,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "Mandai Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9704,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "Ulu Sembawang Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9705,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "Marsiling Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 9703,
+		"location" : "SLE",
+		"image" : "",
+		"description" : "SLE(BKE) Exit"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6711,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Entrance to PIE from ECP Changi"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6713,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Entrance from Simei Ave"
+	},
+	{
+		"timestamp" : "",
+		"id" : 5794,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Bedok North"
+	},
+	{
+		"timestamp" : "",
+		"id" : 5795,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Eunos Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 5797,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Paya Lebar Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 5798,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Kallang Way"
+	},
+	{
+		"timestamp" : "",
+		"id" : 5799,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Woodsville Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6701,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Kim Keat Link"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6703,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Thomson Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6704,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Mount Pleasant"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6705,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Adam Road"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6706,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Bukit Timah Expressway"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6710,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Entrance from Jalan Anak Bukit"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6712,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Exit 27 to Clementi Ave 6"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6715,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Hong Kah Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6714,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Exit 35 to KJE"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6708,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Nanyang Flyover"
+	},
+	{
+		"timestamp" : "",
+		"id" : 6716,
+		"location" : "PIE",
+		"image" : "",
+		"description" : "Tuas Flyover"
+	}]
+}

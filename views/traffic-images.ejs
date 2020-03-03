@@ -1,0 +1,62 @@
+<% include partials/header %>
+
+<div class="container">
+	<div class="jumbotron" style="text-align: center;">
+		<h1>Traffic Images</h1>
+	</div>
+
+	<div class="form-group">
+	  <label for="expressway-list">Select Expressway:</label>
+	  <select class="form-control" id="expressway-list">
+	    <option value="PIE">Pan-Island Expressway (PIE)</option>
+	    <option value="TPE">Tampines Expressway (TPE)</option>
+	    <option value="KPE">Kallang-Paya Lebar Expressway (KPE)</option>
+	    <option value="ECP">East Coast Parkway (ECP)</option>
+	    <option value="CTE">Central Expressway (CTE)</option>
+	    <option value="MCE">Marina Coastal Expressway (MCE)</option>
+	    <option value="SentosaGateway">Sentosa Gateway</option>
+	    <option value="AYE">Ayer Rajah Expressway (AYE)</option>
+	    <option value="BKE">Bukit Timah Expressway (BKE)</option>
+	    <option value="SLE">Seletar Expressway (SLE)</option>
+	    <option value="WoodlandsCheckpoint">Woodlands Checkpoint</option>
+	    <option value="KJE">Kranji Expressway (KJE)</option>
+	    <option value="TuasCheckpoint">Tuas Checkpoint</option>
+	  </select>
+	</div>
+	<div class="row" style="display: flex; flex-wrap: wrap;">
+		<% images.forEach(function (camera) { %>
+		<div class="col-xs-12 col-md-4  <%= camera['location'] %>" style="display: none; margin-bottom: 20px;">
+			<div class="img-thumbnail">
+				<div class="caption" style="text-align: center; padding-top: 10px; padding-bottom: 10px">
+					<h6><%= camera['description'] %></h6>
+				</div>
+				<img src="<%= camera['image'] %>" class="img-fluid"/> 
+			</div>
+		</div>
+		<% }); %>
+	</div>
+</div>
+
+<script>
+	var list = document.getElementById('expressway-list');
+	var defaultValue = list.value;
+	var oldList = document.getElementsByClassName(defaultValue);
+
+	window.addEventListener("load", function(){
+		for(var i = 0; i < oldList.length; i++){
+			oldList[i].style.display 	= "block";
+		}
+	})
+	list.addEventListener("change", function() {
+		for(var i = 0; i < oldList.length; i++){
+			oldList[i].style.display = "none";
+		}
+		var newList = document.getElementsByClassName(list.value);
+		for(var i = 0; i < newList.length; i++){
+			newList[i].style.display 	= "block";
+		}
+		oldList = newList;
+	});
+</script>
+
+<% include partials/footer %>

@@ -1,0 +1,29 @@
+<% include partials/header %>
+
+<span id='desLat' hidden>
+  <%= desLat %>
+</span>
+<span id='desLng' hidden>
+  <%= desLng %>
+</span>
+<span id='currLat' hidden>
+  <%= currLat %>
+</span>
+<span id='currLng' hidden>
+  <%= currLng %>
+</span>
+<div class='container'>
+  
+  <p id="routepreview" style="text-align:center;"><b><h2>Route Preview</h2></b></p>
+  <form action="/viewroute" method='post' id='push'>
+
+    <button type='submit' onClick='test()' name="url" value='https://www.google.com/maps/dir/?api=1&origin=<%= currLat %>,<%= currLng %>&destination= <%= desLat %>,<%= desLng %>&travelmode=car/'
+      class="btn btn-primary">Start Navigation </button>
+  </form>
+</div>
+<br />
+<div id='map' class='container'></div>
+
+<% include partials/viewroutescript %>
+
+<% include partials/footer %>

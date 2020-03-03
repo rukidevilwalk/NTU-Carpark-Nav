@@ -1,0 +1,56 @@
+<% include partials/header %>
+
+<div class='container'>
+	<div class="jumbotron" style="text-align: center;">
+		<h1>Contact Us</h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-9">
+				<h5>Let us know how we can improve by sending us an email or call us!</h5>
+			</div>
+			<% if(admin) { %>
+			<div class="col-xs-3">
+				<a href="/contact/update"><i class="fa fa-pencil prefix grey-text"></i></a>
+			</div>
+			<%}%>
+		</div>
+	</div>
+
+	<section>
+		<span> Contact Number:
+			<%= info['contact_no'] %> </span>
+	</section>
+	<section>
+		<span> Email Address:
+			<%= info['email_address'] %> </span>
+	</section>
+
+	<h5>Alternatively, you may submit through the feedback form here!</h5>
+
+	<div class="card">
+		<h5 class="card-header">Feedback Form</h5>
+		<div class="card-body">
+			<form action="/feedback" method="POST">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required>
+				</div>
+				<div class="form-group">
+					<label for="email_address">Email address:</label>
+					<input type="email" class="form-control" id="email_address" name="email_address" aria-describedby="emailHelp" placeholder="Enter email" required>
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+					<label for="feedback">Feedback:</label>
+					<textarea maxlength="500" class="form-control" id="feedback" name="feedback" rows="3" required></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+<% include partials/footer %>

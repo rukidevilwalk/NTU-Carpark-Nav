@@ -1,0 +1,85 @@
+<% include partials/header %>
+<div class="container">
+  <div class="row">
+    <div class="col align-self-start">
+      <h3 class="text-center">24 Hours Weather Forecast</h3>
+    </div>
+  </div>
+  <br />
+  <div class="table-responsive-md">
+    <table class="table text-center">
+      <thead>
+        <tr class="table-info">
+          <th scope="col">Lowest Temperature</th>
+          <th scope="col">Highest Temperature</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+
+          <td>
+            <%= low_temp %>
+          </td>
+          <td>
+            <%= high_temp %>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-responsive-md">
+    <table class="table text-center">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">From</th>
+          <th scope="col">Until</th>
+          <th scope="col">North</th>
+          <th scope="col">South</th>
+          <th scope="col">Central</th>
+          <th scope="col">East</th>
+          <th scope="col">West</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%for (var i = 0;i< periods_24.length ; i++){ %>
+        <tr>
+
+          <td>
+            <%= periods_24[i].time.start %>
+          </td>
+          <td>
+            <%= periods_24[i].time.end %>
+          </td>
+          <td>
+            <%= periods_24[i].regions.north %>
+          </td>
+          <td>
+            <%= periods_24[i].regions.south %>
+          </td>
+          <td>
+            <%= periods_24[i].regions.central %>
+          </td>
+          <td>
+            <%= periods_24[i].regions.east %>
+          </td>
+          <td>
+            <%= periods_24[i].regions.west %>
+          </td>
+        </tr>
+        <%}%>
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+<% include partials/footer %>
