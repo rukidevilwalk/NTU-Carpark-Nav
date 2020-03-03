@@ -15,7 +15,7 @@
     "express-session": "^1.15.6",
     "fcm-push": "^1.1.3",
     "firebase-admin": "^6.0.0",
-    "mongoose": "^5.2.15",
+    "mongoose": "^5.7.5",
     "mongoose-seed": "^0.5.1",
     "nodemon": "^1.18.5",
     "passport": "^0.4.0",
